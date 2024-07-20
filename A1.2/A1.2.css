@@ -1,0 +1,15 @@
+h1 {
+    font-size: 150px;
+     font-family:'Brush Script MT',cursive;
+     font-weight: lighter;
+     color:blueviolet;
+    }
+h2{
+    font-size: 40px;
+    font-family:'Lucida Handwriting',cursive;
+    font-weight: lighter;
+    color:rgb(137, 91, 183);
+}
+body{
+    background: linear-gradient(90deg, rgba(234,234,234,1) 0%, rgba(121,196,190,1) 35%, rgba(159,93,239,1) 100%);
+}
