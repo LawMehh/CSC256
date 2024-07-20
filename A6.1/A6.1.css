@@ -1,0 +1,39 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    /*change background color to gradient*/
+    background-image: linear-gradient(rgb(160, 237, 153), rgb(153, 255, 250));
+    height: 600px;
+}
+
+/* Flexbox container to align form and output side by side */
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Styling for form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Styling for the output area */
+#output {
+    margin-left: 50px; /* Add some space between the form and the output box */
+    border: 1px solid #4a3e5e;
+    padding: 30px;
+    width: fit-content;
+}
+
+/* Styling for the output values */
+.output-value {
+    color: blue; /* Change this to your desired color */
+    font-weight: bold;
+}

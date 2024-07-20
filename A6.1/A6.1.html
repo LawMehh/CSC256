@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Form</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="A6.1.css">
+</head>
+<body>
+    <h1>Enter Game Details</h1>
+    <div class="container">
+        <!-- Form for user input -->
+        <form id="gameForm">
+            <div class="form-group">
+                <!-- Label and input field for username -->
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <!-- Label and input field for weapons -->
+                <label for="weapons">Weapons:</label>
+                <input type="text" id="weapons" name="weapons">
+            </div>
+            <div class="form-group">
+                <!-- Label and input field for health/damage -->
+                <label for="health">Health/Damage:</label>
+                <input type="number" id="health" name="health">
+            </div>
+            <div class="form-group">
+                <!-- Label and input field for point total -->
+                <label for="points">Point Total:</label>
+                <input type="number" id="points" name="points">
+            </div>
+            <!-- Submit button that triggers the submitForm function -->
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <!-- Output area for displaying entered details -->
+        <div id="output">
+            <h2>Entered Details</h2>
+            <p>User Name: <span id="outputUsername" class="output-value"></span></p>
+            <p>Weapons: <span id="outputWeapons" class="output-value"></span></p>
+            <p>Health/Damage: <span id="outputHealth" class="output-value"></span></p>
+            <p>Point Total: <span id="outputPoints" class="output-value"></span></p>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="A6.1.js"></script>
+</body>
+</html>
